@@ -702,3 +702,26 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+.appsimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.appsimg img{
+  height:500px;
+  width: auto;
+}
+
+@media screen and (max-width: 550px) {
+  .appsimg {
+    flex-direction: column;
+    align-items:center;
+  }
+  .appsimg img{
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
