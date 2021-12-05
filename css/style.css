@@ -725,3 +725,16 @@ textarea {
     margin-bottom: 10px;
   }
 }
+
+.alwayscolumn{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-around;
+}
+
+.alwayscolumn img{
+  width: 90%;
+  height: auto;
+  margin-bottom: 10px;
+}
