@@ -707,11 +707,15 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .appsimg img{
   height:500px;
   width: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 550px) {
